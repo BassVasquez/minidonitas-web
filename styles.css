@@ -113,7 +113,8 @@ body{
  
     #enlace1{
         color: #ffffff;
-        font-weight: 700;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 900;
         font-size: 18px;
         background-color: #f65990;
         margin-top: 60px;
@@ -128,7 +129,8 @@ body{
 
     #enlace2{
         color: #ffffff;
-        font-weight: 700;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 900;
         font-size: 18px;
         background-color: #f65990;
         margin-top: 20px;
@@ -143,7 +145,8 @@ body{
 
     #enlace3{
         color: #000000;
-        font-weight: 700;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 900;
         font-size: 18px;
         background-color: #00ffdd;
         margin-top: 20px;
@@ -169,7 +172,7 @@ body{
     
     #enlace3:hover{
         scale: 1.01;
-        background-color: #ffffff;
+        background-color: #00ffdd;
     }
 
 
@@ -183,7 +186,7 @@ body{
     #logo_side_nav{
         height: 200px;
         margin-top: 150px;
-        width: 230px;
+        width: 220px;
 
     }
 
