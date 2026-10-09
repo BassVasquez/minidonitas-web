@@ -1,0 +1,484 @@
+
+/* Colores */
+
+/* Rosa: #f65990 
+   Donut: #f5c187  #fff5e7
+   Celeste mostazilla: #0ea2ed
+   Verde mostazilla: #74af1d
+   Blanco mostazilla: #fdfdfd
+*/
+
+/* font-family: "Montserrat", sans-serif; */
+
+/*Logos redes sociales*/
+
+    .redes-flotantes { 
+        position: fixed; 
+        bottom: 20px; 
+        right: 20px; 
+        display: flex; 
+        gap: 12px; 
+        z-index: 1000; 
+    } 
+
+    .red-social { width: 55px; 
+        height: 55px; 
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        transition: transform 0.2s ease; 
+    } 
+    .red-social img { width: 100%; 
+        height: 100%; 
+        object-fit: contain; 
+    } 
+
+    .red-social:hover { 
+        transform: scale(1.1); 
+    }
+/*--------------------*/
+
+body{
+    background-color: #fff5e7;
+    
+}
+
+/*Navbar*/
+
+    .brand-logo{
+        margin-top: 17px;
+        transition: color 0.3s ease-in-out;
+    }
+
+    .brand-logo:hover{
+        color: #000000;
+    }
+
+    #navBar{
+        background-color: #f65990;
+        height: 92px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+    }
+
+    .lista{
+        margin-top: 15px;
+        margin-right: 15px;
+        font-size: 20px;
+        color: #000000;
+        background-color: #fff5e7;
+        border-radius: 20px;
+        transition: background-color 0.3s ease-in-out;
+        transition: scale 0.3s ease-in-out;
+    
+    }
+
+    .lista2{
+        margin-top: 15px;
+        margin-right: 15px;
+        font-size: 20px;
+        color: #000000;
+        background-color: #00ffdd;
+        border-radius: 20px;
+        transition: scale 0.3s ease-in-out;
+    }
+
+
+    .lista:hover{
+        background-color: #00ffdd;
+        scale: 1.1;
+    }
+
+    .lista2:hover{
+        background-color: #00ffdd;
+        scale: 1.1;
+    }
+/*------*/
+
+/* Navbar Medium Small*/
+
+    #logo_menu{
+        font-size: 40px;
+        margin-top: 17px;
+    }
+
+
+    .sidenav{
+        background-color: #fff5e7;
+        background-image: url("../IMG/Donas/fondo_15.svg");
+    }
+
+ 
+    #enlace1{
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 18px;
+        background-color: #f65990;
+        margin-top: 60px;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        transition: scale 0.2s ease-in-out;
+        transition: background-color 0.2s ease-in-out;
+        transition: color 0.2s ease-in-out;
+    }
+
+    #enlace2{
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 18px;
+        background-color: #f65990;
+        margin-top: 20px;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        transition: scale 0.2s ease-in-out;
+        transition: background-color 0.2s ease-in-out;
+        transition: color 0.2s ease-in-out;
+    }
+
+    #enlace3{
+        color: #000000;
+        font-weight: 700;
+        font-size: 18px;
+        background-color: #00ffdd;
+        margin-top: 20px;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        transition: scale 0.2s ease-in-out;
+        transition: background-color 0.2s ease-in-out;
+    }
+
+    #enlace1:hover{
+        scale: 1.01;
+        background-color: #00ffdd;
+        color: #000000;
+    }
+    
+    #enlace2:hover{
+        scale: 1.01;
+        background-color: #00ffdd;
+        color: #000000;
+    }
+    
+    #enlace3:hover{
+        scale: 1.01;
+        background-color: #ffffff;
+    }
+
+
+    .logo_side{
+        text-align: center;
+        font-weight: 700;
+        font-style: italic;
+    }
+
+
+    #logo_side_nav{
+        height: 200px;
+        margin-top: 150px;
+        width: 230px;
+
+    }
+
+/*-----------------*/
+
+
+/*Texto Introduccion*/
+
+    .intro{
+        font-size: 35px;
+        font-style: italic;
+        font-family: "Montserrat";
+        font-weight: 900;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .intro2{
+        font-size: 30px;
+        font-style: italic;
+        font-family: "Montserrat";
+        font-weight: 900;
+        text-align: center;
+    }
+
+
+    .fondoDonita{
+        background-size: 150px;
+        background-repeat: no-repeat;
+        padding: 50px;
+    }
+
+    .fondoDonita::before{
+        content: "";
+        position: fixed;
+        inset: 0;
+
+        background-image: url("../IMG/Donas/fondo.svg");
+        background-repeat: repeat;
+        background-size: 150px;
+
+        opacity: 0.2;
+        pointer-events: none;
+        z-index: -1;
+    }
+
+
+    #caja0{
+        margin-top: 50px;
+    }
+/*------------------*/
+
+
+
+
+
+/*Elige tus Donitas*/
+
+    .titulo1{
+        text-align: center;
+        font-weight: bold;
+        font-family: "Montserrat";
+        font-size: 40px;
+        font-style: italic;
+        color: #f65990;
+    }
+
+
+    #caja1{
+        border-top-left-radius: 15%;
+        border-bottom-right-radius: 15%;
+        background-color: #ffffff;
+        margin-bottom: 50px;
+    }
+
+    #caja2{
+        margin-bottom: 100px;
+    }
+
+    #caja3{
+        margin-bottom: 100px;
+    }
+
+    .card{
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        margin-bottom: 20px;
+        transition: scale 0.2s ease-in-out; 
+    }
+
+
+
+    .card:hover{
+        scale: 1.1;
+
+    }
+
+
+    .nombres{
+        font-weight: 600;
+        font-style: italic;
+        text-align: center;
+        font-size: 16px;
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+    }
+
+
+/*-----------------*/
+
+/* Preguntas Frecuentes*/
+
+    #caja4{
+        background-color: #ffffff;
+        border-top-left-radius: 15%;
+        border-bottom-right-radius: 15%;
+        margin-bottom: 100px;
+    }
+
+    .titulo2{
+        text-align: center;
+        font-weight: bold;
+        font-family: "Montserrat";
+        font-size: 40px;
+        font-style: italic;
+        color: #000000;
+        
+    }
+
+    .preguntasFrecuentes{
+        font-family: "Montserrat";
+        font-weight: bold;
+        font-size: 18px;
+        transition: background-color 0.2s ease-in-out;
+    }
+
+    .preguntasFrecuentes2{
+        font-family: "Montserrat";
+        font-weight: bold;
+        font-size: 18px;
+        transition: background-color 0.2s ease-in-out;
+    }
+
+    .preguntasFrecuentes:hover{
+        background-color: #f65990;
+    }
+
+    .preguntasFrecuentes2:hover{
+        background-color: #00ffdd;
+    }
+
+
+
+    .spawn{
+        background-color: #000000;
+        color: #ffffff;
+        font-family: "Montserrat";
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+
+    #caja5{
+        margin-bottom: 100px;
+    }
+
+    #caja6{
+        margin-bottom: 100px;
+    }
+
+/*---------------------*/
+
+/*Opiniones*/
+
+    #caja7{
+        background-color: #ffffff;
+        border-top-right-radius: 15%;
+        border-bottom-left-radius: 15%;
+    }
+
+    #caja8{
+        margin-bottom: 100px;
+    }
+
+    #caja9{
+        margin-bottom: 100px;
+    }
+
+    .carta{
+        background-color: #00ffdd;
+        transition: background-color  ease-in-out;
+        border-bottom-right-radius: 30px;
+        transition: scale 0.3s ease-in-out;
+    }
+
+    .carta:hover{
+        scale: 1.05;
+    }
+
+    .carta2{
+        background-color: #ffc9dc;
+        border-bottom-right-radius: 30px;
+        transition: scale 0.3s ease-in-out;
+    }
+
+    .carta2:hover{
+        scale: 1.05;
+        
+    }
+
+    .nombre_opinion{
+        font-family: "Montserrat";
+        font-weight: bold; 
+        font-size: 16px;
+        background-color: #ffffff;
+        padding: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        
+    }
+    .texto_opinion{
+        font-size: 16px;
+        font-weight: 600;
+        background-color: #ffffff;
+        padding: 15px;
+    }
+
+    .fondo_carta{
+        background-image: url("../IMG/Donas/fondo_50.svg");
+        background-repeat: repeat;
+    }
+
+/* ---------*/
+
+/*Precios & delivery*/
+
+    #caja10{
+        margin-top: 50px;
+        background-color: #ffffff;
+        margin-bottom: 100px;
+    }
+
+    .texto1{
+        text-align: left;
+        font-size: 18px;
+        font-family: "Montserrat";
+        font-weight: 600;
+        font-style: italic;
+    }
+
+/*------------------*/
+
+
+/*Footer*/
+
+    .page-footer{
+        background-color: #ffc9dc;
+    }
+
+    #caja11{
+        background-color: #000000;
+        text-align: center;
+        color: #000000;
+    }
+
+    #logo_footer{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        height: 190px;
+        width: 200px;
+    }
+
+    .links{
+        font-size: 24px;
+        font-weight: 700;
+        font-style: italic;
+        color: #000000;
+    }
+
+    .enlaces4{
+        text-decoration: underline;
+        color: #000000;
+        transition: color 0.2s ease-in-out;
+        font-weight: 700;
+    }
+    .enlaces4:hover{
+        color:#ffffff;
+    }
+    .copy{
+        font-weight: 900;
+        font-style: italic;
+        font-size: 18px;
+        color: #000000;
+    }
+
+/*------*/
