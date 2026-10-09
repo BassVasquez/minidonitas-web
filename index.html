@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mini Donitas</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+    <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- CSS-->
+    <link rel="stylesheet" href="CSS/styles.css">
+
+    <!-- preconects-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Animated-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+<body>
+
+      <!--Navbar -->
+    <nav class="nav-wrapper" id="navBar">
+        <div class="container">
+            <a href="#" class="brand-logo">MINI DONITAS</a>
+            <!--el data target hace que se ejecute en el logo, el sidenav-trigger hace que desaparezca en pantallas grandes, para hacer responsive, hay que hacer el <a> que esta abajo, mas ocultar el <ul>, despues crear otra ul con los enlaces -->
+            <a href="#" data-target="menu-responsive" class="sidenav-trigger">
+                <i class="material-icons" id="logo_menu">menu</i>
+            </a>
+        
+            <ul class="right hide-on-med-and-down">
+                <li><a class="lista" href="#">INICIO</a></li>
+                <li><a class="lista" href="#">PRODUCTOS</a></li>
+                <li><a class="lista2" href="https://wa.me/56966266251">PIDE AQUÍ</a></li>
+            </ul>
+        </div>
+   </nav>
+   <!--Este es lo mismo, pero este hace los enlaces responsivos en el menu, la clase sidenav hace que esta se oculte el menu -->
+   
+   <ul class="sidenav" id="menu-responsive">
+        <li ><a href="#" id="enlace1">INICIO</a></li>
+        <li ><a href="#" id="enlace2">PRODUCTOS</a></li>
+        <li ><a href="https://wa.me/56966266251" target="_blank" id="enlace3">PIDE AQUÍ</a></li>
+
+        <div class="logo_side">
+            <img src="IMG/Logos/logominidonitasNEGRAS.png" alt="logo_minidonitas" id="logo_side_nav">
+            <p id="copy">© Copyright minidonitas.cl 2026</p>
+        </div>
+   </ul>
+
+   <div class="redes-flotantes">
+        <a href="https://wa.me/56966266251" class="red-social" target="_blank" rel="noopener noreferrer"> 
+            <img src="IMG/Logos/whatsapp.png" alt="WhatsApp">
+        </a> 
+        <a href="https://www.instagram.com/bass_.posting/" class="red-social" target="__blank" rel="noopener noreferrer">
+            <img src="IMG/Logos/instagram.png" alt="Instagram"> 
+        </a> 
+    </div>
+
+   <div class="fondoDonita">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="col s10 offset-s1 m10 offset-m1 l10 offset-l1 animate__animated animate__backInLeft" id="caja0">
+                    <p class="intro">LO PEQUEÑO TAMBIÉN PUEDE SER IRRESISTIBLE</p>
+                    <p class="intro2">Mini donitas preparadas con cariño, bañadas en chocolate y listas para convertir cualquier momento en uno más dulce.</p>
+                    <p class="intro2">Un producto 100% Rancagüino y Artesanal</p>
+                </div>
+            </div>
+
+        </div>
+   </div>
+
+<!-- 
+   <div class="row">
+        <div class="col s12 m12 l12" id="caja1">
+
+            <div class="clearfix" id="caja2"></div>
+
+            <p class="titulo1">ELIGE TUS MINI DONITAS</p>
+
+            <div class="col s5 offset-s1 m5 offset-m1 l2 offset-l2">
+                <div class="card z-depth-4">
+                    <div class="card-image">
+                        <img class="imagenes responsive-image" src="IMG/Donas/donita_arcoiris.png">
+                        <p class="nombres">CHOCOLATE ARCOÍRIS</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s5 m5 l2">
+                <div class="card z-depth-4">
+                    <div class="card-image">
+                        <img class="imagenes responsive-image" src="IMG/Donas/donita_coco.png" >
+                        <p class="nombres">CHOCOLATE COCO</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clearfix hide-on-large-only"></div>
+
+            <div class="col s5 offset-s1 m5 offset-m1 l2">
+                <div class="card z-depth-4">
+                    <div class="card-image">
+                        <img class="imagenes responsive-image" src="IMG/Donas/donita_estrella.png">
+                        <p class="nombres">CHOCOLATE ESTRELLA</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s5 m5 l2">
+                <div class="card z-depth-4">
+                    <div class="card-image">
+                        <img class="imagenes" src="IMG/Donas/dona1.png" class="responsive-image">
+                        <p class="nombres">REY DE CORAZONES</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clearfix"></div>
+
+            
+
+            <div class="col s5 offset-s1 m5 offset-m1 l2 offset-l2">
+                <div class="card z-depth-4">
+                    <div class="card-image">
+                        <img class="imagenes responsive-image" src="IMG/Donas/donita_arcoiris.png">
+                        <p class="nombres">BLANCA ARCOIRIS</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s5 m5 l2">
+                <div class="card z-depth-4">
+                    <div class="card-image">
+                        <img class="imagenes responsive-image" src="IMG/Donas/donita_coco.png" >
+                        <p class="nombres"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clearfix hide-on-large-only"></div>
+
+            <div class="col s5 offset-s1 m5 offset-m1 l2">
+                <div class="card z-depth-4">
+                    <div class="card-image">
+                        <img class="imagenes responsive-image" src="IMG/Donas/donita_estrella.png">
+                        <p class="nombres">BLANCA ESTRELLA</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s5 m5 l2">
+                <div class="card z-depth-4">
+                    <div class="card-image">
+                        <img class="imagenes responsive-image" src="IMG/Donas/dona1.png">
+                        <p class="nombres">REINA DE CORAZONES</p>
+                    </div>
+                </div>
+            </div>
+
+            
+            
+            
+
+            <div class="clearfix" id="caja3"></div>
+
+
+
+        </div>
+   </div>
+-->
+
+
+   <div class="row">
+        <div class="col s12 m12 l12" id="caja1">
+
+            <div class="clearfix" id="caja2"></div>
+
+            <p class="titulo1">ELIGE TUS MINI DONITAS</p>
+
+            <div class="col s5 offset-s1 m4 offset-m2 l2 offset-l2">
+                <div class="card z-depth-4 animate__animated animate__backInUp">
+                    <div class="card-image">
+                        <img class="imagenes responsive-image" src="IMG/Donas/la_clasica.svg">
+                        <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                        <p class="nombres">La clásica donita de vainilla bañada en chocolate.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s5 offset-s1 m4 offset-m1 l2">
+                <div class="card z-depth-4">
+                    <div class="card-image">
+                        <img class="imagenes responsive-image" src="IMG/Donas/la_choco.svg">
+                        <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                        <p class="nombres">Donita de chocolate bañada en chocolate.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clearfix hide-on-large-only"></div>
+
+            <div class="col s5 offset-s1 m4 offset-m2 l2">
+                <div class="card z-depth-4">
+                    <div class="card-image">
+                        <img class="imagenes responsive-image" src="IMG/Donas/la_chocoblanca.svg">
+                        <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                        <p class="nombres">Donita de vainilla o chocolate bañada en chocolate blanco.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s5 offset-s1 m4 offset-m1 l2">
+                <div class="card z-depth-4">
+                    <div class="card-image">
+                        <img class="imagenes responsive-image" src="IMG/Donas/ediciones_especiales.svg">
+                        <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                        <p class="nombres">Ediciones especiales de Halloween y Navidad</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="clearfix" id="caja3"></div>
+
+        </div>
+   </div>
+
+
+
+
+
+
+
+
+
+
+   <!-- Collapsibles-->
+   <div class="row">
+        <div class="col s12 m12 l12" id="caja4">
+
+            <div class="clearfix" id="caja5"></div>
+
+
+            <p class="titulo1">PREGUNTAS FRECUENTES</p>
+
+            <div class="col s10 offset-s1 m10 offset-m1 l8 offset-l2">
+                <ul class="collapsible">
+                    <li>
+                        <div class="collapsible-header preguntasFrecuentes"><i class="material-icons">shopping_cart</i>¿Cómo comprar?</div>
+                        <div class="collapsible-body spawn"><span>Primero escoge tus donitas, contáctanos por WhatsApp, coordinamos disponibilidad, cantidad y entrega, y luego a disfrutar!!</span></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header preguntasFrecuentes2"><i class="material-icons">payment</i>¿Cuáles son los métodos de pago?</div>
+                        <div class="collapsible-body spawn"><span>Aceptamos solamente efectivo y transferencia.</span></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header preguntasFrecuentes"><i class="material-icons">directions_car</i>¿Hacen delivery?</div>
+                        <div class="collapsible-body spawn"><span>Realizamos delivery de manera gratuita dentro del sector Nelson Pereira, delivery con tarifa a otros sectores de Rancagua.</span></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header preguntasFrecuentes2"><i class="material-icons">event</i>¿Tienen servicio para cumpleaños u otro evento?</div>
+                        <div class="collapsible-body spawn"><span>Sí, si tienes un evento y quieres mini donitas, indícanos la cantidad de mini donitas que quieres, y te las prepararemos para el día de tu evento.</span></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header preguntasFrecuentes"><i class="material-icons">mood</i>¿Cómo cuidar tus mini donitas?</div>
+                        <div class="collapsible-body spawn"><span>Recomendamos colocar sus mini donitas en un tapper, y guardarlo en el refrigerador para conservar su textura, esponjosidad y sabor.</span></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header preguntasFrecuentes2"><i class="material-icons">donut_small</i>¿Tienen mini donitas veganas?</div>
+                        <div class="collapsible-body spawn"><span>Por el momento no, pero no descartamos la posibilidad en un futuro.</span></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header preguntasFrecuentes"><i class="material-icons">location_city</i>¿Tienen local presencial?</div>
+                        <div class="collapsible-body spawn"><span>No tenemos local presencial, solo hacemos pedidos para entregar directo a la puerta de su casa.</span></div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="clearfix" id="caja6"></div>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="row">
+        <div class="col s12 m12 l12" id="caja7">
+
+            <div class="clearfix" id="caja8"></div>
+
+            <p class="titulo1">OPINIONES DE NUESTROS CLIENTES</p>
+
+            <div class="col s10 offset-s1 l5 offset-l1">
+                <div class="card-panel hoverable fondo_carta carta">
+                    <div class="row valign-wrapper">
+                        <div class="col s2">
+                            <img src="IMG/Testimonios/derp.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                        </div>
+                        <div class="col s10">
+                            <p class="nombre_opinion">Vicente Yantén</p>
+                            <div>
+                                <p class="texto_opinion">Pedí 50 mini donitas para mi despedida y las recibi frescas y esponjosas, muy satisfechos quedaron también mis invitados, totalmente recomendable.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s10 offset-s1 l5">
+                <div class="card-panel hoverable fondo_carta carta">
+                    <div class="row valign-wrapper">
+                        <div class="col s2">
+                            <img src="IMG/Testimonios/derp.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                        </div>
+                        <div class="col s10">
+                            <p class="nombre_opinion">Nathaly Ávila</p>
+                            <div>
+                                <p class="texto_opinion">Para mi cumpleaños pedimos 30 mini donitas, y estaban muy buenas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="clearfix"></div>
+
+            <div class="col s10 offset-s1 l5 offset-l1">
+                <div class="card-panel hoverable fondo_carta carta2">
+                    <div class="row valign-wrapper">
+                        <div class="col s2">
+                            <img src="IMG/Testimonios/derp.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                        </div>
+                        <div class="col s10">
+                            <p class="nombre_opinion">Bárbara Barriga</p>
+                            <div>
+                                <p class="texto_opinion">Pedí 50 mini donitas para mi despedida y las recibi en perfecto estado, frescas y esponjosas, muy satisfechos quedaron también mis invitados, totalmente recomendable.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s10 offset-s1 l5">
+                <div class="card-panel hoverable fondo_carta carta2">
+                    <div class="row valign-wrapper">
+                        <div class="col s2">
+                            <img src="IMG/Testimonios/derp.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                        </div>
+                        <div class="col s10">
+                            <p class="nombre_opinion">Bastián Vásquez</p>
+                            <div>
+                                <p class="texto_opinion">Pedí 30 mini donitas para mi cumpleaños, y estaban muy buenas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="clearfix" id="caja9"></div>
+
+
+        </div>
+    </div>
+
+    <div class="row">>
+        <div class="col s12 m12 l12" id="caja10">
+            <p class="titulo1">PRECIOS & DELIVERY</p>
+
+            <div class="col s10 offset-s1 m10 offset-m1 l10 offset-l1">
+                <hr>
+                <li><p class="texto1">La promo MINIDONITAS contempla 3 minidonitas por $1.500.</p></ul>
+                <li><p class="texto1">Los pedidos tienen un valor MÍNIMO de $7.500 (15 Minidonitas).</p></li>
+                <li><p class="texto1">Para pedidos grandes, pedir con un día de anticipación, programar su pedido siempre será mejor.</p></li>
+                <li><p class="texto1">Los delivery dentro de rancagua van desde los $1.000 a 2.000 dependiendo del sector.</p></li>
+                <hr>
+                <br><br><br>
+            </div>
+
+            <p class="titulo1">HORARIO DE ATENCIÓN</p>
+
+            <div class="col s10 offset-s1 m10 offset-m1 l10 offset-l1">
+                <hr>
+                <li><p class="texto1">Lunes a Viernes de 10:00 a 20:00 hrs.</p></ul>
+                <li><p class="texto1">Sabados de 10:00 a 22:00 hrs.</p></li>
+                <li><p class="texto1">Domingo de 10:00 a 18:00 hrs.</p></li>
+                <li><p class="texto1">Los delivery dentro de rancagua van desde los $1.000 a 2.000 dependiendo del sector.</p></li>
+                <hr>
+                <br><br><br>
+            </div>
+        
+        </div>
+
+    </div>
+
+    <!-- CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+            M.AutoInit();
+    });
+    </script>
+</body>
+</html>
