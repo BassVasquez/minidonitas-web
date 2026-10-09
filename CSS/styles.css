@@ -9,134 +9,93 @@
 */
 
 /* font-family: "Montserrat", sans-serif; */
-.redes-flotantes { 
-    position: fixed; 
-    bottom: 20px; 
-    right: 20px; 
-    display: flex; 
-    gap: 12px; 
-    z-index: 1000; 
-} 
 
-.red-social { width: 55px; 
-    height: 55px; 
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-    transition: transform 0.2s ease; 
-} 
-.red-social img { width: 100%; 
-    height: 100%; 
-    object-fit: contain; 
-} 
+/*Logos redes sociales*/
 
-.red-social:hover { 
-    transform: scale(1.1); 
-}
+    .redes-flotantes { 
+        position: fixed; 
+        bottom: 20px; 
+        right: 20px; 
+        display: flex; 
+        gap: 12px; 
+        z-index: 1000; 
+    } 
 
+    .red-social { width: 55px; 
+        height: 55px; 
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        transition: transform 0.2s ease; 
+    } 
+    .red-social img { width: 100%; 
+        height: 100%; 
+        object-fit: contain; 
+    } 
+
+    .red-social:hover { 
+        transform: scale(1.1); 
+    }
+/*--------------------*/
 
 body{
     background-color: #fff5e7;
     
 }
 
-.brand-logo{
-    margin-top: 17px;
-    transition: color 0.3s ease-in-out;
-}
+/*Navbar*/
 
-.brand-logo:hover{
-    color: #000000;
-}
+    .brand-logo{
+        margin-top: 17px;
+        transition: color 0.3s ease-in-out;
+    }
 
-#navBar{
-    background-color: #f65990;
-    height: 92px;
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-}
+    .brand-logo:hover{
+        color: #000000;
+    }
 
-.lista{
-    margin-top: 15px;
-    margin-right: 15px;
-    font-size: 20px;
-    color: #000000;
-    background-color: #fff5e7;
-    border-radius: 20px;
-    transition: background-color 0.3s ease-in-out;
-    transition: scale 0.3s ease-in-out;
-   
-}
+    #navBar{
+        background-color: #f65990;
+        height: 92px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+    }
 
-.lista2{
-    margin-top: 15px;
-    margin-right: 15px;
-    font-size: 20px;
-    color: #000000;
-    background-color: #00ffdd;
-    border-radius: 20px;
-    transition: scale 0.3s ease-in-out;
-}
+    .lista{
+        margin-top: 15px;
+        margin-right: 15px;
+        font-size: 20px;
+        color: #000000;
+        background-color: #fff5e7;
+        border-radius: 20px;
+        transition: background-color 0.3s ease-in-out;
+        transition: scale 0.3s ease-in-out;
+    
+    }
 
-
-.lista:hover{
-    background-color: #00ffdd;
-    scale: 1.1;
-}
-
-.lista2:hover{
-    background-color: #00ffdd;
-    scale: 1.1;
-}
+    .lista2{
+        margin-top: 15px;
+        margin-right: 15px;
+        font-size: 20px;
+        color: #000000;
+        background-color: #00ffdd;
+        border-radius: 20px;
+        transition: scale 0.3s ease-in-out;
+    }
 
 
+    .lista:hover{
+        background-color: #00ffdd;
+        scale: 1.1;
+    }
 
-
-.intro{
-    font-size: 35px;
-    font-style: italic;
-    font-family: "Montserrat";
-    font-weight: 900;
-    margin-top: 5px;
-    text-align: center;
-}
-
-.intro2{
-    font-size: 30px;
-    font-style: italic;
-    font-family: "Montserrat";
-    font-weight: 900;
-    text-align: center;
-}
-
-
-.fondoDonita{
-    background-size: 150px;
-    background-repeat: no-repeat;
-    padding: 50px;
-}
-
-.fondoDonita::before{
-    content: "";
-    position: fixed;
-    inset: 0;
-
-    background-image: url("../IMG/Donas/fondo.svg");
-    background-repeat: repeat;
-    background-size: 150px;
-
-    opacity: 0.2;
-    pointer-events: none;
-    z-index: -1;
-}
-
-
-#caja0{
-    margin-top: 50px;
-}
-
+    .lista2:hover{
+        background-color: #00ffdd;
+        scale: 1.1;
+    }
+/*------*/
 
 /* Navbar Medium Small*/
 
@@ -228,14 +187,60 @@ body{
 
     }
 
-
-
-
-
 /*-----------------*/
 
 
-/*Nuestras Donitas*/
+/*Texto Introduccion*/
+
+    .intro{
+        font-size: 35px;
+        font-style: italic;
+        font-family: "Montserrat";
+        font-weight: 900;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .intro2{
+        font-size: 30px;
+        font-style: italic;
+        font-family: "Montserrat";
+        font-weight: 900;
+        text-align: center;
+    }
+
+
+    .fondoDonita{
+        background-size: 150px;
+        background-repeat: no-repeat;
+        padding: 50px;
+    }
+
+    .fondoDonita::before{
+        content: "";
+        position: fixed;
+        inset: 0;
+
+        background-image: url("../IMG/Donas/fondo.svg");
+        background-repeat: repeat;
+        background-size: 150px;
+
+        opacity: 0.2;
+        pointer-events: none;
+        z-index: -1;
+    }
+
+
+    #caja0{
+        margin-top: 50px;
+    }
+/*------------------*/
+
+
+
+
+
+/*Elige tus Donitas*/
 
     .titulo1{
         text-align: center;
@@ -289,17 +294,7 @@ body{
     }
 
 
-    /*.imagenes{
-        transition: scale 0.3s ease-in-out;
-        padding: 25px;
-    }
-
-    .imagenes:hover{
-        scale: 1.1;
-    }
-        */
-
-/*----------------*/
+/*-----------------*/
 
 /* Preguntas Frecuentes*/
 
@@ -425,18 +420,63 @@ body{
 
 /* ---------*/
 
-/*          */
+/*Precios & delivery*/
 
     #caja10{
-        margin-top: 100px;
+        margin-top: 50px;
         background-color: #ffffff;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
     }
 
     .texto1{
-        text-align: justify;
+        text-align: left;
         font-size: 18px;
         font-family: "Montserrat";
         font-weight: 600;
         font-style: italic;
     }
+
+/*------------------*/
+
+
+/*Footer*/
+
+    .page-footer{
+        background-color: #000000;
+    }
+
+    #caja11{
+        background-color: #000000;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    #logo_footer{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        height: 190px;
+        width: 200px;
+    }
+
+    .links{
+        font-size: 24px;
+        font-weight: 700;
+        font-style: italic;
+        color: #00ffdd;
+    }
+
+    .enlaces4{
+        text-decoration: underline;
+        color: #ffffff;
+        transition: color 0.2s ease-in-out;
+    }
+    .enlaces4:hover{
+        color:#00ffdd;
+    }
+    .copy{
+        font-weight: 900;
+        font-style: italic;
+        font-size: 18px;
+    }
+
+/*------*/
