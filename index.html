@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- CSS-->
     <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/querys.css">
 
     <!-- preconects-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,7 +29,7 @@
       <!--Navbar -->
     <nav class="nav-wrapper" id="navBar">
         <div class="container">
-            <a href="#" class="brand-logo">MINI DONITAS</a>
+            <a href="#" class="brand-logo" id="logo_letra">MINI DONITAS</a>
             <!--el data target hace que se ejecute en el logo, el sidenav-trigger hace que desaparezca en pantallas grandes, para hacer responsive, hay que hacer el <a> que esta abajo, mas ocultar el <ul>, despues crear otra ul con los enlaces -->
             <a href="#" data-target="menu-responsive" class="sidenav-trigger">
                 <i class="material-icons" id="logo_menu">menu</i>
@@ -66,10 +67,9 @@
    <div class="fondoDonita">
         <div class="row">
             <div class="col s12 m12 l12">
-                <div class="col s10 offset-s1 m10 offset-m1 l10 offset-l1 animate__animated animate__backInLeft" id="caja0">
+                <div class="col s12 m10 offset-m1 l10 offset-l1 animate__animated animate__backInLeft" id="caja0">
                     <p class="intro">LO PEQUEÑO TAMBIÉN PUEDE SER IRRESISTIBLE</p>
-                    <p class="intro2">Mini donitas preparadas con cariño, bañadas en chocolate y listas para convertir cualquier momento en uno más dulce.</p>
-                    <p class="intro2">Un producto 100% Rancagüino y Artesanal</p>
+                    <p class="intro2">Mini donitas horneadas con cariño, bañadas en chocolate y listas para convertir cualquier momento en uno más dulce.</p>
                 </div>
             </div>
 
@@ -184,7 +184,7 @@
 
             <p class="titulo1">ELIGE TUS MINI DONITAS</p>
 
-            <div class="col s5 offset-s1 m4 offset-m2 l2 offset-l2">
+            <div class="col s10 offset-s1 m4 offset-m2 l3">
                 <div class="card z-depth-4 animate__animated animate__backInUp">
                     <div class="card-image">
                         <img class="imagenes responsive-image" src="IMG/Donas/la_clasica.svg">
@@ -196,7 +196,7 @@
                 </div>
             </div>
 
-            <div class="col s5 offset-s1 m4 offset-m1 l2">
+            <div class="col s10 offset-s1 m4 offset-m1 l3">
                 <div class="card z-depth-4 animate__animated animate__backInUp">
                     <div class="card-image">
                         <img class="imagenes responsive-image" src="IMG/Donas/la_choco.svg">
@@ -210,7 +210,7 @@
 
             <div class="clearfix hide-on-large-only"></div>
 
-            <div class="col s5 offset-s1 m4 offset-m2 l2">
+            <div class="col s10 offset-s1 m4 offset-m2 l3">
                 <div class="card z-depth-4 animate__animated animate__backInUp">
                     <div class="card-image">
                         <img class="imagenes responsive-image" src="IMG/Donas/la_chocoblanca.svg">
@@ -222,7 +222,7 @@
                 </div>
             </div>
 
-            <div class="col s5 offset-s1 m4 offset-m1 l2">
+            <div class="col s10 offset-s1 m4 offset-m1 l3">
                 <div class="card z-depth-4 animate__animated animate__backInUp">
                     <div class="card-image">
                         <img class="imagenes responsive-image" src="IMG/Donas/ediciones_especiales.svg">
@@ -255,7 +255,7 @@
                 <hr>
                 <br><br><br>
             </div>
-
+            
             <p class="titulo1">HORARIO DE ATENCIÓN</p>
 
             <div class="col s10 offset-s1 m10 offset-m1 l10 offset-l1">
@@ -268,11 +268,6 @@
             </div>     
         </div>
     </div>
-
-
-
-
-
 
 
 
@@ -333,10 +328,10 @@
 
             <p class="titulo1">OPINIONES DE NUESTROS CLIENTES</p>
 
-            <div class="col s10 offset-s1 l5 offset-l1">
+            <div class="col s12 m6 l5 offset-l1">
                 <div class="card-panel hoverable fondo_carta carta">
                     <div class="row valign-wrapper">
-                        <div class="col s2">
+                        <div class="col s3">
                             <img src="IMG/Testimonios/derp.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
                         </div>
                         <div class="col s10">
@@ -349,10 +344,10 @@
                 </div>
             </div>
 
-            <div class="col s10 offset-s1 l5">
+            <div class="col s12 m6 l5">
                 <div class="card-panel hoverable fondo_carta carta">
                     <div class="row valign-wrapper">
-                        <div class="col s2">
+                        <div class="col s3">
                             <img src="IMG/Testimonios/derp.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
                         </div>
                         <div class="col s10">
@@ -368,10 +363,10 @@
 
             <div class="clearfix"></div>
 
-            <div class="col s10 offset-s1 l5 offset-l1">
+            <div class="col s12 m6 l5 offset-l1">
                 <div class="card-panel hoverable fondo_carta carta2">
                     <div class="row valign-wrapper">
-                        <div class="col s2">
+                        <div class="col s3">
                             <img src="IMG/Testimonios/derp.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
                         </div>
                         <div class="col s10">
@@ -384,10 +379,10 @@
                 </div>
             </div>
 
-            <div class="col s10 offset-s1 l5">
+            <div class="col s12 m6 l5">
                 <div class="card-panel hoverable fondo_carta carta2">
                     <div class="row valign-wrapper">
-                        <div class="col s2">
+                        <div class="col s3">
                             <img src="IMG/Testimonios/derp.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
                         </div>
                         <div class="col s10">
@@ -413,7 +408,7 @@
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
-            <img src="IMG/Logos/logominidonitas.png" alt="logo_minidonitas" id="logo_footer">
+            <img src="IMG/Logos/logominidonitasNEGRAS.png" alt="logo_minidonitas" id="logo_footer">
               </div>
               <div class="col l4 offset-l2 s12">
                 <p class="links">Links de ayuda</p>

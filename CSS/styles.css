@@ -442,13 +442,13 @@ body{
 /*Footer*/
 
     .page-footer{
-        background-color: #000000;
+        background-color: #ffc9dc;
     }
 
     #caja11{
         background-color: #000000;
         text-align: center;
-        color: #ffffff;
+        color: #000000;
     }
 
     #logo_footer{
@@ -462,12 +462,12 @@ body{
         font-size: 24px;
         font-weight: 700;
         font-style: italic;
-        color: #00ffdd;
+        color: #000000;
     }
 
     .enlaces4{
         text-decoration: underline;
-        color: #ffffff;
+        color: #000000;
         transition: color 0.2s ease-in-out;
     }
     .enlaces4:hover{
@@ -477,6 +477,7 @@ body{
         font-weight: 900;
         font-style: italic;
         font-size: 18px;
+        color: #000000;
     }
 
 /*------*/
