@@ -69,7 +69,7 @@
         </a> 
     </div>
 
-   <div class="fondoDonita">
+   <div class="fondoDonita" id="cajaIntroduccion">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="col s12 m10 offset-m1 l10 offset-l1 animate__animated animate__backInLeft" id="caja0">
@@ -91,8 +91,8 @@
             <div class="col s10 offset-s1 m5 offset-m1 l3">
                 <div class="card z-depth-4 animate__animated animate__backInUp">
                     <div class="card-image">
-                        <img class="imagenes responsive-image" src="IMG/Donas/la_clasica.svg">
-                        <span class="card-title">Card Title</span>
+                        <img class="imagenes responsive-image" src="IMG/Imagenes/la_clasica-100.jpg">
+                        <span class="card-title" id="title-carta1">La Clásica</span>
                     </div>
                     <div class="card-content">
                         <p class="nombres">La clásica donita de vainilla bañada en chocolate.</p>
@@ -103,8 +103,8 @@
             <div class="col s10 offset-s1 m5 l3">
                 <div class="card z-depth-4 animate__animated animate__backInUp">
                     <div class="card-image">
-                        <img class="imagenes responsive-image" src="IMG/Donas/la_choco.svg">
-                        <span class="card-title">Card Title</span>
+                        <img class="imagenes responsive-image" src="IMG/Imagenes/la_chocoblanca-100.jpg">
+                        <span class="card-title" id="title-carta2">La Choco</span>
                     </div>
                     <div class="card-content">
                         <p class="nombres">Donita de chocolate bañada en chocolate.</p>
@@ -117,8 +117,8 @@
             <div class="col s10 offset-s1 m5 offset-m1 l3">
                 <div class="card z-depth-4 animate__animated animate__backInUp">
                     <div class="card-image">
-                        <img class="imagenes responsive-image" src="IMG/Donas/la_chocoblanca.svg">
-                        <span class="card-title">Card Title</span>
+                        <img class="imagenes responsive-image" src="IMG/Imagenes/la_blanca-100.jpg">
+                        <span class="card-title" id="title-carta3">La Chocoblanca</span>
                     </div>
                     <div class="card-content">
                         <p class="nombres">Donita de vainilla o chocolate bañada en chocolate blanco.</p>
@@ -129,11 +129,11 @@
             <div class="col s10 offset-s1 m5 l3">
                 <div class="card z-depth-4 animate__animated animate__backInUp">
                     <div class="card-image">
-                        <img class="imagenes responsive-image" src="IMG/Donas/ediciones_especiales.svg">
-                        <span class="card-title">Card Title</span>
+                        <img class="imagenes responsive-image" src="IMG/Imagenes/ediciones_especiales-100.jpg">
+                        <span class="card-title" id="title-carta3">Ediciones Especiales</span>
                     </div>
                     <div class="card-content">
-                        <p class="nombres">Ediciones especiales de Halloween y Navidad</p>
+                        <p class="nombres">Ediciones especiales de Halloween y próximamente Navidad.</p>
                     </div>
                 </div>
             </div>
@@ -154,8 +154,10 @@
                 <hr>
                 <li><p class="texto1">La promo MINIDONITAS contempla 3 minidonitas por $1.500.</p></ul>
                 <li><p class="texto1">Los pedidos tienen un valor MÍNIMO de $7.500 (15 Minidonitas).</p></li>
-                <li><p class="texto1">Para pedidos grandes, pedir con un día de anticipación, programar su pedido siempre será mejor.</p></li>
-                <li><p class="texto1">El delivery dentro de Rancagüa van desde los $1.000 a 3.000 dependiendo del sector.</p></li>
+                <li><p class="texto1">Para pedidos grandes, pedir con un día de anticipación.</p></li>
+                <li><p class="texto1">El delivery dentro de Rancagua van desde los $1.000 a 3.000 dependiendo del sector.</p></li>
+                <li><p class="texto1">Programar su pedido siempre será mejor.</p></li>
+                
                 <hr>
                 <br><br><br>
             </div>
@@ -164,9 +166,11 @@
 
             <div class="col s10 offset-s1 m10 offset-m1 l10 offset-l1">
                 <hr>
-                <li><p class="texto1">Lunes a Viernes de 10:00 a 20:00 hrs.</p></ul>
+                <li><p class="texto1">Lunes, Martes y Jueves de 10:00 a 20:00 hrs.</p></ul>
+                <li><p class="texto1">Miércoles de 09:00 a 15:00 hrs.</p></ul>
+                <li><p class="texto1">Viernes de 09:00 a 16:00 y 21:00 a 00:00 hrs.</p></ul>
                 <li><p class="texto1">Sabados de 10:00 a 23:00 hrs.</p></li>
-                <li><p class="texto1">Domingo de 10:00 a 18:00 hrs.</p></li>
+                <li><p class="texto1">Domingos de 10:00 a 18:00 hrs.</p></li>
                 <li><p class="texto1">El horario esta sujeto a disponibilidad.</p></li>
                 <hr>
                 <br><br><br>
@@ -197,7 +201,7 @@
                     </li>
                     <li>
                         <div class="collapsible-header preguntasFrecuentes"><i class="material-icons">directions_car</i>¿Hacen delivery?</div>
-                        <div class="collapsible-body spawn"><span>Realizamos delivery dentro de Rancagüa con un valor entre $1.000 a $3.000 pesos.</span></div>
+                        <div class="collapsible-body spawn"><span>Realizamos delivery dentro de Rancagua con un valor entre $1.000 a $3.000 pesos.</span></div>
                     </li>
                     <li>
                         <div class="collapsible-header preguntasFrecuentes2"><i class="material-icons">event</i>¿Tienen servicio para cumpleaños u otro evento?</div>
@@ -237,7 +241,7 @@
                 <div class="card-panel hoverable fondo_carta carta">
                     <div class="row valign-wrapper">
                         <div class="col s3">
-                            <img src="IMG/Testimonios/derp.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                            <img src="IMG/Opiniones/vicente-100.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
                         </div>
                         <div class="col s10">
                             <p class="nombre_opinion">Vicente Yantén</p>
@@ -288,12 +292,12 @@
                 <div class="card-panel hoverable fondo_carta carta2">
                     <div class="row valign-wrapper">
                         <div class="col s3">
-                            <img src="IMG/Testimonios/derp.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                            <img src="IMG/Opiniones/nathaly-100.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
                         </div>
                         <div class="col s10">
-                            <p class="nombre_opinion">Bastián Vásquez</p>
+                            <p class="nombre_opinion">Nathaly Ávila</p>
                             <div>
-                                <p class="texto_opinion">Pedí 30 mini donitas para mi cumpleaños, y estaban muy buenas</p>
+                                <p class="texto_opinion">Mi pololo me regaló 15 donitas para nuestro aniversario, fue un súper lindo regalo, muchas gracias a minidonitas y a mi pololo.</p>
                             </div>
                         </div>
                     </div>
@@ -302,39 +306,50 @@
 
 
             <div class="clearfix" id="caja9"></div>
-
-
         </div>
     </div>
 
 
+    <div class="row">
+        <div class="col s12 m12 l12" id="cajaContador">
+            <div class="col s12 m12 l12" id="cajaContador2">   
+                <p class="texto2">¡¡HEMOS VENDIDO
+                    <br> 
+                        <span class="texto3">'</span><span class="texto3" id="contador">0</span><span class="texto3">'</span>
+                    <br> 
+                    MINIDONITAS!!
+                </p>
+            </div>
+        </div>
+    </div>
 
-     <footer class="page-footer">
-          <div class="container">
+    <footer class="page-footer">
+        <div class="container">
             <div class="row">
-              <div class="col l6 s12">
-            <img src="IMG/Logos/logominidonitas_contorno.png" alt="logo_minidonitas" id="logo_footer">
-              </div>
-              <div class="col l4 offset-l2 s12">
-                <p class="links">Links de ayuda</p>
-                <ul>
-                  <li><a class="enlaces4" href="https://wa.me/56966266251" target="_blank">WhatsApp</a></li>
-                  <li><a class="enlaces4" href="https://www.instagram.com/bass_.posting/" target="_blank">Instagram</a></li>
-                </ul>
-              </div>
+                <div class="col l6 s12">
+                    <img src="IMG/Logos/logominidonitas_contorno.png" alt="logo_minidonitas" id="logo_footer">
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <p class="links">Links de ayuda</p>
+                    <ul>
+                        <li><a class="enlaces4" href="https://wa.me/56966266251" target="_blank">WhatsApp</a></li>
+                        <li><a class="enlaces4" href="https://www.instagram.com/bass_.posting/" target="_blank">Instagram</a></li>
+                    </ul>
+                </div>
             </div>
-          </div>
-          <div class="footer-copyright">
+        </div>
+        <div class="footer-copyright">
             <div class="container">
-            <p class="copy">© Copyright 2026 minidonitas.cl</p>
+                <p class="copy">© Copyright 2026 minidonitas.cl</p>
             </div>
-          </div>
-        </footer>
+        </div>
+    </footer>
 
 
     <!-- CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
+    <script src="JS/contador.js"></script>
 
     <script>
         document.addEventListener('DOMContentLoaded', function(){

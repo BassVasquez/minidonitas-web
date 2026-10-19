@@ -234,6 +234,12 @@ body{
     }
 
 
+    #cajaIntroduccion{
+        background-color: #ffffff;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
     #caja0{
         margin-top: 50px;
     }
@@ -284,6 +290,50 @@ body{
     .card:hover{
         scale: 1.1;
 
+    }
+
+    #title-carta1{
+        color: #000000;
+        font-weight: 700;
+        font-style: italic;
+        text-shadow: 
+            -1px -1px 0 #ffffff,  
+            1px -1px 0 #ffffff,
+            -1px  1px 0 #ffffff,
+            1px  1px 0 #ffffff;
+    }
+
+    #title-carta2{
+        color: #000000;
+        font-weight: 700;
+        font-style: italic;
+        text-shadow: 
+            -1px -1px 0 #ffffff,  
+            1px -1px 0 #ffffff,
+            -1px  1px 0 #ffffff,
+            1px  1px 0 #ffffff;
+    }
+
+    #title-carta3{
+        color: #000000;
+        font-weight: 700;
+        font-style: italic;
+        text-shadow: 
+            -1px -1px 0 #ffffff,  
+            1px -1px 0 #ffffff,
+            -1px  1px 0 #ffffff,
+            1px  1px 0 #ffffff;
+    }
+
+    #title-carta4{
+        color: #000000;
+        font-weight: 700;
+        font-style: italic;
+        text-shadow: 
+            -1px -1px 0 #ffffff,  
+            1px -1px 0 #ffffff,
+            -1px  1px 0 #ffffff,
+            1px  1px 0 #ffffff;
     }
 
 
@@ -443,6 +493,35 @@ body{
 
 /*------------------*/
 
+
+/*Caja Contador de Donitas*/
+
+    #cajaContador{
+        background-color: #ffffff;
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+
+    #cajaContador2{
+        
+        text-align: center;
+    }
+
+    .texto2{
+        font-size: 50px;
+        font-weight: 900;
+        font-family: "Montserrat", sans-serif;
+        font-style: italic;
+    }
+
+    .texto3{
+        font-size: 90px;
+        font-weight: 900;
+        font-family: "Montserrat", sans-serif;
+        color: #f65990;
+    }
+
+/*------------------------*/
 
 /*Footer*/
 
