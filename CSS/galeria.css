@@ -1,0 +1,39 @@
+
+.fondoDonita{
+    background-size: 150px;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+
+.fondoDonita::before{
+    content: "";
+    position: fixed;
+    inset: 0;
+
+    background-image: url("../IMG/Donas/fondo.svg");
+    background-repeat: repeat;
+    background-size: 150px;
+
+    opacity: 0.2;
+    pointer-events: none;
+    z-index: -1;
+}
+
+#caja12{
+    margin-top:-40px;
+    background-color: #ffffff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

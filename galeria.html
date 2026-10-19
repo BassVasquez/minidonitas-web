@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Galería</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Disfruta mini donitas bañadas en chocolate, horneadas con amor y disponibles por delivery en nuestra comuna de Rancagüa Chile.">
+    <meta name="robots" content="index, follow">
+</head>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- CSS-->
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/querys.css">
+    <link rel="stylesheet" href="CSS/galeria.css">
+
+    <!-- preconects-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Animated-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- ico -->
+    <link rel="icon" href="IMG/Logos/logo_minidonitas_ico.ico" type="image/x-icon">
+<body>
+
+      <!--Navbar -->
+    <nav class="nav-wrapper" id="navBar">
+        <div class="container">
+            <a href="index.html" class="brand-logo" id="logo_letra">MINI DONITAS</a>
+            <!--el data target hace que se ejecute en el logo, el sidenav-trigger hace que desaparezca en pantallas grandes, para hacer responsive, hay que hacer el <a> que esta abajo, mas ocultar el <ul>, despues crear otra ul con los enlaces -->
+            <a href="#" data-target="menu-responsive" class="sidenav-trigger">
+                <i class="material-icons" id="logo_menu">menu</i>
+            </a>
+        
+            <ul class="right hide-on-med-and-down">
+                <li><a class="lista" href="index.html">INICIO</a></li>
+                <li><a class="lista" href="#">GALERÍA</a></li>
+                <li><a class="lista2" href="https://wa.me/56966266251">PIDE AQUÍ</a></li>
+            </ul>
+        </div>
+   </nav>
+   <!--Este es lo mismo, pero este hace los enlaces responsivos en el menu, la clase sidenav hace que esta se oculte el menu -->
+   
+   <ul class="sidenav" id="menu-responsive">
+        <li ><a href="index.html" id="enlace1">INICIO</a></li>
+        <li ><a href="#" id="enlace2">GALERÍA</a></li>
+        <li ><a href="https://wa.me/56966266251" target="_blank" id="enlace3">PIDE AQUÍ</a></li>
+
+        <div class="logo_side">
+            <img src="IMG/Logos/logominidonitasNEGRAS.png" alt="logo_minidonitas" id="logo_side_nav">
+            <p id="copy">© Copyright minidonitas.cl 2026</p>
+        </div>
+   </ul>
+
+   <div class="redes-flotantes">
+        <a href="https://wa.me/56966266251" class="red-social" target="_blank" rel="noopener noreferrer"> 
+            <img src="IMG/Logos/whatsapp.png" alt="WhatsApp">
+        </a> 
+        <a href="https://www.instagram.com/bass_.posting/" class="red-social" target="__blank" rel="noopener noreferrer">
+            <img src="IMG/Logos/instagram.png" alt="Instagram"> 
+        </a> 
+    </div>
+
+    <div class="fondoDonita">
+
+    </div>
+
+    <div class="row" id="caja12">
+        <div class="col s12 m12 l12" id="caja13">
+            <div class="col s12 m12 l6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="IMG/Imagenes/img1.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m12 l6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="IMG/Imagenes/img2.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="col s12 m12 l6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="IMG/Imagenes/img3.jpg">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <img src="IMG/Logos/logominidonitas_contorno.png" alt="logo_minidonitas" id="logo_footer">
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <p class="links">Links de ayuda</p>
+                    <ul>
+                        <li><a class="enlaces4" href="https://wa.me/56966266251" target="_blank">WhatsApp</a></li>
+                        <li><a class="enlaces4" href="https://www.instagram.com/bass_.posting/" target="_blank">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <p class="copy">© Copyright 2026 minidonitas.cl</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+            M.AutoInit();
+    });
+    </script>
+    
+</body>
+</html>
