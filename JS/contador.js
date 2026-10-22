@@ -1,7 +1,7 @@
 
 const contador = document.querySelector("#contador");
 
-const objetivo = 1587;
+const objetivo = 1605;
 const duracion = 2000;
 
 function animarContador() {
