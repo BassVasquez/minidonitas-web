@@ -446,7 +446,17 @@ body{
 
     .carta2:hover{
         scale: 1.05;
-        
+    }
+
+    .carta3{
+        background-color: #00e0fd;
+        transition: background-color  ease-in-out;
+        border-bottom-right-radius: 30px;
+        transition: scale 0.3s ease-in-out;
+    }
+
+    .carta3:hover{
+        scale: 1.05;
     }
 
     .nombre_opinion{
